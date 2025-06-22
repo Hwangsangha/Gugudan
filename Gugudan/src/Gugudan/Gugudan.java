@@ -1,6 +1,8 @@
 package Gugudan;
 
+import java.util.Iterator;
 import java.util.Scanner;
+
 
 // Run : ctrl + F11
 // 라인 복사 : ctrl + alt + ⇅
@@ -53,9 +55,9 @@ public class Gugudan {
 //		System.out.println(result);
 //		System.out.println("---------------");
 		
-//		System.out.println("구구단을 출력할 단은?");
-//		Scanner sc = new Scanner(System.in);
-//		int number = sc.nextInt();
+		System.out.println("구구단을 출력할 단은?");
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
 //		System.out.println(number * 1);
 //		System.out.println(number * 2);
 //		System.out.println(number * 3);
@@ -67,6 +69,15 @@ public class Gugudan {
 //		System.out.println(number * 9);
 //		System.out.println("---------------");
 		
-		
+//		while반복문		
+//		int i = 1;
+//		while (i < 10) {
+//			System.out.println(number * i);
+//			i++;
+//		}
+
+//		for반복문
+		for(int i = 1; i < 10; i++)
+			System.out.println(number * i);
 	}
 }
