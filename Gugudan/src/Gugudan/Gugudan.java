@@ -77,7 +77,18 @@ public class Gugudan {
 //		}
 
 //		for반복문
-		for(int i = 1; i < 10; i++)
-			System.out.println(number * i);
+//		for(int i = 1; i < 10; i++)
+//			System.out.println(number * i);
+		
+		System.out.println("사용자가 입력한 값 : " + number);
+		if(number < 2) {
+			System.out.println("값을 잘못 입력했습니다.");
+		}else if(number > 9) {
+			System.out.println("값을 잘못 입력했습니다.");
+		}else {
+			for (int  i = 1; i < 10; i++)
+				System.out.println(number * i);
+		}
+		
 	}
 }
